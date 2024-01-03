@@ -1,0 +1,33 @@
+.privacy-policy-main-title {
+    color: var(--basic-dark);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.privacy-policy-title {
+    margin-bottom: 8px;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
+}
+
+.privacy-policy-text {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.77;
+}
+
+
+
+.privacy-policy-item {
+    margin-bottom: 10px;
+}
+
+.container-pp {
+    background-color: var(--background-color);
+    padding: 40px;
+}

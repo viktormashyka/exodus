@@ -1,0 +1,135 @@
+.favorites-body {
+  background-color: var(--basic-light);
+  min-height: 100vh;
+}
+
+.favorites-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.favorites-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 38px;
+  width: 100%;
+  font-weight: 400;
+}
+
+.favorites-quote-bottom-wrapper {
+  flex-direction: column;
+}
+
+.favorites-quote-bottom-wrapper .article {
+  background: var(--white);
+}
+
+.favorites-quote-img {
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.favorites-exercise-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 0fr;
+  grid-gap: 32px 16px;
+  padding-right: 10px;
+  margin-left: auto;
+  max-height: 487px;
+
+  height: 487px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.favorites-list-exercise-item {
+  height: 141px;
+  background: var(--white);
+  padding: 16px 18px;
+  border-radius: 15px;
+}
+
+.favorites-list-notification {
+  text-align: center;
+  padding: 0 8px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .favorites-exercise-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .favorites-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .favorites-quote-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .favorites-quote-column {
+    width: 494px;
+    max-width: 494px;
+  }
+
+  .favorites-quote-wrapper.quote-wrapper {
+    width: 494px;
+    max-width: 494px;
+
+    display: flex;
+    padding: 40px;
+    background: var(--backgroudColor);
+    border-radius: 20px;
+    margin-bottom: 16px;
+  }
+
+  .favorites-quote-bottom-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 16px;
+  }
+
+  .favorites-quote-bottom-wrapper .quote-wrapper {
+    margin-bottom: 0;
+    padding: 25px;
+  }
+
+  .favorites-quote-img {
+    max-width: 239px;
+    min-height: 141px;
+  }
+
+  .favorites-list-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  .favorites-exercise-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .favorites-list-notification {
+    max-width: 554px;
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100%);
+  }
+}
+
+.exercise-item-trash-icon,
+.modal-icon-trash {
+  pointer-events: none;
+  stroke: black;
+  fill: white;
+}
