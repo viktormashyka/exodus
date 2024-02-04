@@ -1,0 +1,80 @@
+.reviews-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: var(--background-primary, #0c0f12);
+}
+
+.reviews-section-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-title {
+  color: var(--accent, #9f6f3d);
+  text-align: center;
+
+  font-family: Ghakity;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 3.2px;
+
+  margin-bottom: 64px;
+}
+
+.reviews-content-container {
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+}
+
+.reviews-item {
+}
+
+.reviews-subtitle {
+  width: 578px;
+  padding: 24px;
+  background-color: var(--background-secondary, #181c1f);
+  border-radius: 12px;
+  color: var(--white, #ebebeb);
+  text-align: start;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  margin-bottom: 36px;
+}
+
+.reviews-item-name {
+  color: var(--white, #ebebeb);
+  text-align: start;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+
+  padding-left: 24px;
+}
+
+.reviews-item-date {
+  color: var(--white, #ebebeb);
+  text-align: start;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  padding-left: 24px;
+}

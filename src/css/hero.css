@@ -1,4 +1,113 @@
 .hero-section {
+  background: var(--accent);
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  /* padding: 48px;
+  border-radius: 12px;
+  background-color: #212121;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 255, 0.15),
+      rgba(0, 0, 255, 0.15)
+    ),
+    url(https://ac.goit.global/fullstack/html-css-v2/module-4/autochecks/m04-human.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff; */
+}
+
+.hero-section-wrapper {
+  display: flex;
+}
+
+.hero-content-container {
+  padding-top: 182px;
+  padding-bottom: 370px;
+}
+
+.hero-title {
+  color: #fff;
+  font-family: Ghakity;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.78; /* 78.125% */
+  letter-spacing: 6.4px;
+
+  margin-bottom: 16px;
+}
+
+.hero-subtitle {
+  color: var(--white, #ebebeb);
+
+  /* Subtitle */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.77; /* 177.778% */
+  letter-spacing: 0.9px;
+}
+
+/* .hero-social-media-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  top: 390px;
+  right: 64px;
+}
+
+.hero-social-media-wrapper {
+}
+
+.hero-social-media-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-social-media-list::before {
+  content: '';
+  position: absolute;
+  top: 220px;
+  right: 14px;
+  width: 1px;
+  height: 240px;
+  background-color: #fff;
+}
+
+.hero-social-media-list::after {
+  content: '';
+  position: absolute;
+  bottom: 220px;
+  right: 14px;
+  width: 1px;
+  height: 240px;
+  background-color: #fff;
+}
+
+.hero-social-media-item {
+}
+
+.hero-social-media-link {
+}
+
+.hero-social-media-icon {
+} */
+
+/* .hero-section {
   padding-top: 40px;
   padding-bottom: 40px;
   position: relative;
@@ -171,4 +280,4 @@
     gap: 8px;
     flex-wrap: wrap;
   }
-}
+} */

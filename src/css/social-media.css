@@ -1,10 +1,43 @@
 /* SOCIAL MEDIA */
 
 /*social media header */
-.header-social-media-list {
+.header-social-media-container {
+  position: absolute;
   display: flex;
-  gap: 12px;
+  align-items: center;
 
+  top: 390px;
+  right: 64px;
+}
+
+.header-social-media-wrapper {
+}
+
+.header-social-media-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header-social-media-list::after {
+  content: '';
+  position: absolute;
+  bottom: 220px;
+  right: 22px;
+  width: 1px;
+  height: 240px;
+  background-color: #fff;
+}
+
+.header-social-media-list::before {
+  content: '';
+  position: absolute;
+  top: 220px;
+  right: 22px;
+  width: 1px;
+  height: 240px;
+  background-color: #fff;
 }
 
 .header-social-media-link {
@@ -15,8 +48,7 @@
   justify-content: center;
   fill: var(--basic-light);
   border-radius: 10px;
-  border: 1px solid rgba(36, 36, 36, 0.10);
-  ;
+  border: 1px solid rgba(36, 36, 36, 0.1);
   transition: background-color var(--transition);
 }
 
@@ -40,7 +72,6 @@
   display: flex;
   gap: 12px;
 }
-
 
 .burger-social-media-link {
   width: 44px;
@@ -74,9 +105,7 @@
 .footer-social-networks {
   display: flex;
   gap: 12px;
-
 }
-
 
 .footer-link-network {
   width: 44px;
