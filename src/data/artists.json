@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Mike",
+      "title": "Tattoo artist",
+      "subtitle": "Work experience: over 20 years.",
+      "image": "./images/artist-1.png",
+      "description": "Vulputate ac gravida id id velit etiam euismod. Arcu maecenas sit adipiscing dignissim egestas suspendisse. Platea sit semper tellus quis sem pulvinar quis molestie et. Tristique malesuada adipiscing diam amet. Sed vitae aenean consequat aliquam magna vitae ullamcorper. Varius mi ultricies rutrum gravida. Sit lectus rhoncus, non nisl aenean. Ut neque libero adipiscing integer pellentesque.",
+      "imageDescription": "Tattoo artist Mike"
+    },
+    {
+      "id": "2",
+      "name": "Den",
+      "title": "Tattoo artist",
+      "subtitle": "Work experience: over 20 years.",
+      "image": "./images/artist-2.png",
+      "description": "Vulputate ac gravida id id velit etiam euismod. Arcu maecenas sit adipiscing dignissim egestas suspendisse. Platea sit semper tellus quis sem pulvinar quis molestie et. Tristique malesuada adipiscing diam amet. Sed vitae aenean consequat aliquam magna vitae ullamcorper. Varius mi ultricies rutrum gravida. Sit lectus rhoncus, non nisl aenean. Ut neque libero adipiscing integer pellentesque.",
+      "imageDescription": "Tattoo artist Den"
+    },
+    {
+      "id": "3",
+      "name": "John",
+      "title": "Tattoo artist",
+      "subtitle": "Work experience: over 20 years.",
+      "image": "./images/artist-3.png",
+      "description": "Vulputate ac gravida id id velit etiam euismod. Arcu maecenas sit adipiscing dignissim egestas suspendisse. Platea sit semper tellus quis sem pulvinar quis molestie et. Tristique malesuada adipiscing diam amet. Sed vitae aenean consequat aliquam magna vitae ullamcorper. Varius mi ultricies rutrum gravida. Sit lectus rhoncus, non nisl aenean. Ut neque libero adipiscing integer pellentesque.",
+      "imageDescription": "Tattoo artist John"
+    }
+  ]
+}

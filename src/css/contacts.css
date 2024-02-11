@@ -8,15 +8,15 @@
 }
 
 .contacts-title {
-  color: var(--cccent, #9f6f3d);
+  color: var(--accent, #9f6f3d);
   text-align: center;
 
   /* H1 */
-  font-family: Ghakity;
+  font-family: Montserrat;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
-  line-height: 64px; /* 100% */
+  line-height: 1;
   letter-spacing: 3.2px;
 
   margin-bottom: 64px;
