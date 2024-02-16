@@ -1,3 +1,6 @@
+<!-- TODO: add read.me about project-->
+<!-- TODO: remove src copy-->
+
 # Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування

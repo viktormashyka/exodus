@@ -17,15 +17,12 @@
 .about-title {
   padding-top: 52px;
   margin-bottom: 64px;
-
   color: var(--accent, #9f6f3d);
-
-  /* H1 */
-  font-family: Ghakity;
+  font-family: Montserrat;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
-  line-height: 64px; /* 100% */
+  line-height: 1;
   letter-spacing: 3.2px;
 }
 
@@ -35,13 +32,10 @@
 .about-subtitle {
   color: var(--white, #ebebeb);
   font-feature-settings: 'clig' off, 'liga' off;
-
-  /* Body_2 */
-  /* font-family: Poppins; */
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.8px;
 }
 

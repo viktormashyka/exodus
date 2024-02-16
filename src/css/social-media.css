@@ -7,7 +7,7 @@
   align-items: center;
 
   top: 390px;
-  right: 64px;
+  right: -60px;
 }
 
 .header-social-media-wrapper {
@@ -23,48 +23,48 @@
 .header-social-media-list::after {
   content: '';
   position: absolute;
-  bottom: 220px;
-  right: 22px;
+  bottom: 174px;
+  right: 13px;
   width: 1px;
   height: 240px;
-  background-color: #fff;
+  background-color: var(--accent, #9f6f3d);
 }
 
 .header-social-media-list::before {
   content: '';
   position: absolute;
-  top: 220px;
-  right: 22px;
+  top: 174px;
+  right: 13px;
   width: 1px;
   height: 240px;
-  background-color: #fff;
+  background-color: var(--accent, #9f6f3d);
 }
 
 .header-social-media-link {
-  width: 44px;
-  height: 44px;
+  /* width: 44px;
+  height: 44px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--basic-light);
-  border-radius: 10px;
-  border: 1px solid rgba(36, 36, 36, 0.1);
-  transition: background-color var(--transition);
+  /* fill: var(--basic-light); */
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba(36, 36, 36, 0.1); */
+  /* transition: background-color var(--transition); */
 }
 
 .header-social-media-link:hover,
 .header-social-media-link:focus {
-  background-color: var(--basic-dark);
+  /* background-color: var(--basic-light); */
 }
 
 .header-social-media-icon {
-  fill: var(--basic-dark);
+  fill: var(--accent, #9f6f3d);
   transition: fill var(--transition);
 }
 
 .header-social-media-link:hover .header-social-media-icon,
 .header-social-media-link:focus .header-social-media-icon {
-  fill: var(--basic-light);
+  fill: var(--hover, #c4a069);
 }
 
 /*social media burger */
@@ -79,7 +79,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--basic-dark);
+  fill: var(--accent, #9f6f3d);
   border-radius: 10px;
   border: 1px solid rgba(244, 244, 244, 0.1);
   transition: background-color var(--transition);
@@ -97,39 +97,39 @@
 
 .burger-social-media-link:hover .burger-social-media-icon,
 .burger-social-media-link:focus .burger-social-media-icon {
-  fill: var(--basic-dark);
+  fill: var(--accent, #9f6f3d);
 }
 
 /*social media footer */
 
 .footer-social-networks {
   display: flex;
-  gap: 12px;
+  gap: 24px;
 }
 
 .footer-link-network {
-  width: 44px;
-  height: 44px;
+  /* width: 44px;
+  height: 44px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--basic-dark);
+  /* fill: var(--basic-dark);
   border-radius: 10px;
   border: 1px solid rgba(244, 244, 244, 0.1);
-  transition: background-color var(--transition);
+  transition: background-color var(--transition); */
 }
 
 .footer-link-network:hover,
 .footer-link-network:focus {
-  background-color: var(--basic-light);
+  /* background-color: var(--basic-light); */
 }
 
 .footer-svg {
-  fill: var(--basic-light);
+  fill: var(--accent, #9f6f3d);
   transition: fill var(--transition);
 }
 
 .footer-link-network:hover .footer-svg,
 .footer-link-network:focus .footer-svg {
-  fill: var(--basic-dark);
+  fill: var(--hover, #c4a069);
 }

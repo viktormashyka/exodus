@@ -14,11 +14,11 @@
   text-align: center;
 
   /* H1 */
-  font-family: Ghakity;
+  font-family: Montserrat;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1; /* 100% */
+  line-height: 1;
   letter-spacing: 3.2px;
 
   margin-bottom: 64px;
@@ -39,7 +39,7 @@
 
 .gallery-img-container {
   width: 1200px;
-  height: 640px;
+  height: auto;
   /* flex-shrink: 0;
 
   border-radius: 180px;
@@ -47,4 +47,23 @@
 }
 
 .gallery-img {
+}
+
+.gallery-link {
+  color: var(--accent, #9f6f3d);
+  transition: color var(--transition);
+}
+
+.gallery-link:hover,
+.gallery-link:focus {
+  color: var(--hover, #c4a069);
+}
+
+.gallery-link-text {
+  /* font-family: "Poppins", sans-serif; */
+  /* font-weight: 400; */
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  text-decoration: underline;
 }
