@@ -7,18 +7,19 @@
 .artists-section-wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
 .artists-title {
-  color: var(--accent, #9f6f3d);
   text-align: center;
+  color: var(--accent, #9f6f3d);
   font-family: Montserrat;
-  font-size: 64px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
   letter-spacing: 3.2px;
-  margin-bottom: 64px;
 }
 
 .artists-content-container {
@@ -26,9 +27,8 @@
 
 .artists-list {
   display: flex;
-  flex-direction: row;
-  gap: 60px;
-  margin-bottom: 64px;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .artists-item {
@@ -45,8 +45,7 @@
 }
 
 .artists-img-container {
-  width: 360px;
-  height: 586px;
+  max-width: 360px;
   flex-shrink: 0;
   border-radius: 180px;
   background: url('./images/artist-1.png'), lightgray 50% / cover no-repeat;
@@ -87,10 +86,26 @@
 }
 
 .artist-link-text {
-  /* font-family: "Poppins", sans-serif; */
-  /* font-weight: 400; */
   text-align: center;
   font-size: 24px;
   letter-spacing: 0.05em;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .artists-title {
+    font-size: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .artists-section-wrapper {
+    align-items: normal;
+  }
+
+  .artists-list {
+    flex-direction: row;
+    gap: 60px;
+    margin-bottom: 64px;
+  }
 }

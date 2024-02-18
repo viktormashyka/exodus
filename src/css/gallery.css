@@ -13,11 +13,9 @@
   color: var(--accent, #9f6f3d);
   text-align: center;
 
-  /* H1 */
   font-family: Montserrat;
-  font-size: 64px;
+  font-size: 48px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1;
   letter-spacing: 3.2px;
 
@@ -38,7 +36,7 @@
 }
 
 .gallery-img-container {
-  width: 1200px;
+  max-width: 1200px;
   height: auto;
   /* flex-shrink: 0;
 
@@ -60,10 +58,17 @@
 }
 
 .gallery-link-text {
-  /* font-family: "Poppins", sans-serif; */
-  /* font-weight: 400; */
   text-align: center;
   font-size: 24px;
   letter-spacing: 0.05em;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-title {
+    font-size: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }

@@ -38,7 +38,7 @@
 .hero-title {
   color: #fff;
   font-family: Montserrat;
-  font-size: 128px;
+  font-size: 72px;
   font-style: normal;
   font-weight: 400;
   line-height: 0.78;
@@ -57,6 +57,15 @@
   font-weight: 400;
   line-height: 1.77;
   letter-spacing: 0.9px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 128px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }
 
 /* .hero-social-media-container {

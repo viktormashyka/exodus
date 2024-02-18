@@ -32,15 +32,15 @@
 }
 
 .dark-theme .social-media-icon {
-  fill: var(--basic-light)
+  fill: var(--basic-light);
 }
 
 .dark-theme .hero-title-icon {
-  fill: var(--basic-light)
+  fill: var(--basic-light);
 }
 
 .dark-theme .burger-menu-icon {
-  stroke: var(--basic-light)
+  stroke: var(--basic-light);
 }
 
 .dark-theme .hero-hashtag-item {
@@ -62,24 +62,22 @@
   color: var(--basic-gray) !important;
 }
 
-
 .dark-theme #filters button {
   color: var(--basic-light);
 }
 
 .dark-theme .filter-selected::after {
-  background-color: var(--basic-light);;
+  background-color: var(--basic-light);
 }
 
 .dark-theme .exercises-search-wrapper {
   border-color: var(--basic-light);
-
 }
 
-.dark-theme .exercises-search::placeholder, .dark-theme .exercises-search {
+.dark-theme .exercises-search::placeholder,
+.dark-theme .exercises-search {
   color: var(--basic-light);
 }
-
 
 .dark-theme .exercises-search-img {
   stroke: var(--basic-light);

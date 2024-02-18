@@ -15,7 +15,7 @@
 
 .footer-content-and-social-wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .footer-content-container {
@@ -23,7 +23,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 8px;
-  height: 88px;
+  /* height: 88px; */
 }
 
 .footer-content-contact-wrapper {
@@ -48,4 +48,20 @@
   letter-spacing: 0.05em;
   color: var(--input, #595f65);
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-content-and-social-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-content-and-social-wrapper {
+    /* display: flex; */
+  }
+  .footer-content-container {
+    height: 88px;
+  }
 }

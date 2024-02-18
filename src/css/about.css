@@ -6,42 +6,24 @@
 
 .about-section-wrapper {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-}
-
-.about-content-container {
-  width: 520px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
 .about-title {
-  padding-top: 52px;
-  margin-bottom: 64px;
+  text-align: center;
   color: var(--accent, #9f6f3d);
   font-family: Montserrat;
-  font-size: 64px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
   letter-spacing: 3.2px;
 }
 
-.about-subtitle-wrapper {
-}
-
-.about-subtitle {
-  color: var(--white, #ebebeb);
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 1.5;
-  letter-spacing: 0.8px;
-}
-
 .about-img-container {
-  width: 384px;
-  height: 600px;
+  max-width: 384px;
   flex-shrink: 0;
   border-radius: 192px;
   background: linear-gradient(
@@ -54,4 +36,78 @@
 }
 
 .about-img {
+}
+
+.about-content-container {
+}
+
+.about-subtitle-wrapper {
+}
+
+.about-subtitle {
+  color: var(--white, #ebebeb);
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* TODO: check font-size for mobile */
+  font-size: 14px;
+  /* font-size: 16px; */
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section-wrapper {
+  }
+
+  .about-title {
+  }
+
+  .about-img-container {
+  }
+
+  .about-img {
+  }
+
+  .about-content-container {
+  }
+
+  .about-subtitle-wrapper {
+  }
+
+  .about-subtitle {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-section-wrapper {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: normal;
+    flex-wrap: wrap;
+  }
+
+  .about-title {
+    padding-top: 52px;
+    padding-right: 260px;
+    font-size: 64px;
+  }
+
+  .about-img-container {
+  }
+
+  .about-img {
+  }
+
+  .about-content-container {
+    margin-top: -450px;
+    width: 520px;
+  }
+
+  .about-subtitle-wrapper {
+  }
+
+  .about-subtitle {
+    font-size: 16px;
+  }
 }
