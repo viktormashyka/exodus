@@ -13,9 +13,9 @@
 .logo-link-wrapper {
 }
 
-.logo-link-wrapper {
+/* .logo-link-wrapper {
   margin-right: 530px;
-}
+} */
 
 .logo-link {
   color: var(--white, #ebebeb);
@@ -82,7 +82,6 @@
 }
 
 .logo-content-title {
-  font-family: Montserrat;
   font-family: Montserrat;
   font-size: 23px;
   text-transform: uppercase;
