@@ -29,11 +29,13 @@
 
 .header-social-media-icon {
   fill: var(--accent, #9f6f3d);
+  fill: var(--accent, #9f6f3d);
   transition: fill var(--transition);
 }
 
 .header-social-media-link:hover .header-social-media-icon,
 .header-social-media-link:focus .header-social-media-icon {
+  fill: var(--hover, #c4a069);
   fill: var(--hover, #c4a069);
 }
 
@@ -81,6 +83,7 @@
 }
 
 .footer-svg {
+  fill: var(--accent, #9f6f3d);
   fill: var(--accent, #9f6f3d);
   transition: fill var(--transition);
 }

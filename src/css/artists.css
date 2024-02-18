@@ -44,6 +44,16 @@
   transform: scale(1.01);
 }
 
+.artists-img-link {
+  transform: scale(1);
+  transition: transform var(--transition);
+}
+
+.artists-img-link:hover .artists-img-container,
+.artists-img-link:focus .artists-img-container {
+  transform: scale(1.01);
+}
+
 .artists-img-container {
   max-width: 360px;
   flex-shrink: 0;

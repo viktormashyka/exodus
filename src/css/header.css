@@ -13,7 +13,18 @@
 .logo-link-wrapper {
 }
 
+.logo-link-wrapper {
+  margin-right: 530px;
+}
+
 .logo-link {
+  color: var(--white, #ebebeb);
+  transition: color var(--transition);
+}
+
+.logo-link:hover,
+.logo-link:focus {
+  color: var(--hover, #c4a069);
   color: var(--white, #ebebeb);
   transition: color var(--transition);
 }
@@ -25,6 +36,21 @@
 
 .logo-container {
   display: flex;
+}
+
+.logo-img-wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  outline: 2px solid var(--white, #ebebeb);
+  outline-offset: -2px;
+  margin-right: 8px;
+  transition: outline-color var(--transition);
+}
+
+.logo-link:hover .logo-img-wrapper,
+.logo-link:focus .logo-img-wrapper {
+  outline-color: var(--hover, #c4a069);
 }
 
 .logo-img-wrapper {
@@ -56,6 +82,7 @@
 }
 
 .logo-content-title {
+  font-family: Montserrat;
   font-family: Montserrat;
   font-size: 23px;
   text-transform: uppercase;
