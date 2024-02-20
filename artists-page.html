@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/exodus/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/exodus/favicon.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artists</title>
     <!-- styles -->
     
-    <script type="module" crossorigin src="/exodus/assets/header-d3e1b52a.js"></script>
-    <link rel="stylesheet" href="/exodus/assets/styles-854f87a7.css">
+    <script type="module" crossorigin src="/exodus/assets/vendor-5b5a0b62.js"></script>
+    <script type="module" crossorigin src="/exodus/assets/burger-menu-6fc2975d.js"></script>
     <link rel="stylesheet" href="/exodus/assets/vendor-e5212ee8.css">
+    <link rel="stylesheet" href="/exodus/assets/styles-0d03d4c6.css">
   </head>
 
   <body class="artists-body">
@@ -41,9 +42,7 @@
       <nav class="header-nav" role="navigation">
         <ul class="header-nav-list">
           <li class="header-nav-item">
-            <a class="header-nav-link" href="index.html#about-title">
-              About us
-            </a>
+            <a class="header-nav-link" href="index.html"> Home </a>
           </li>
           <li class="header-nav-item">
             <a class="header-nav-link" href="artists-page.html"> Artists </a>
@@ -52,7 +51,14 @@
             <a class="header-nav-link" href="gallery-page.html"> Gallery </a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="#footer-title"> Contacts </a>
+            <a class="header-nav-link-passive" href="index.html#about-title">
+              About us
+            </a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link-passive" href="#footer-title">
+              Contacts
+            </a>
           </li>
         </ul>
       </nav>
@@ -75,7 +81,7 @@
                 height="28"
                 aria-label="Phone icon"
               >
-                <use href="/exodus/assets/sprite-3b0cdbec.svg#phone"></use>
+                <use href="/exodus/assets/sprite-b8902c8d.svg#phone"></use>
               </svg>
             </a>
           </li>
@@ -93,7 +99,7 @@
                 height="28"
                 aria-label="Instagram icon"
               >
-                <use href="/exodus/assets/sprite-3b0cdbec.svg#instagram"></use>
+                <use href="/exodus/assets/sprite-b8902c8d.svg#instagram"></use>
               </svg>
             </a>
           </li>
@@ -111,7 +117,7 @@
                 height="28"
                 aria-label="Facebook icon"
               >
-                <use href="/exodus/assets/sprite-3b0cdbec.svg#facebook"></use>
+                <use href="/exodus/assets/sprite-b8902c8d.svg#facebook"></use>
               </svg>
             </a>
           </li>
@@ -129,7 +135,7 @@
           height="32"
           aria-label="burger menu btn icon"
         >
-          <use href="/exodus/assets/sprite-3b0cdbec.svg#burger-menu"></use>
+          <use href="/exodus/assets/sprite-b8902c8d.svg#burger-menu"></use>
         </svg>
       </button>
       <div class="menu-container js-menu-container" id="mobile-menu">
@@ -145,15 +151,13 @@
               height="32"
               aria-label="Close Mobile Menu icon"
             >
-              <use href="/exodus/assets/sprite-3b0cdbec.svg#icon-close"></use>
+              <use href="/exodus/assets/sprite-b8902c8d.svg#icon-close"></use>
             </svg>
           </button>
           <nav class="nav-burger-menu">
             <ul class="nav-burger-menu-list">
               <li class="nav-burger-menu-item">
-                <a class="nav-burger-menu-link" href="index.html#about-title">
-                  About us
-                </a>
+                <a class="nav-burger-menu-link" href="index.html"> Home </a>
               </li>
               <li class="nav-burger-menu-item">
                 <a class="nav-burger-menu-link" href="artists-page.html">
@@ -166,7 +170,15 @@
                 </a>
               </li>
               <li class="nav-burger-menu-item">
-                <a class="nav-burger-menu-link" href="#footer-title">
+                <a
+                  class="nav-burger-menu-link-passive"
+                  href="index.html#about-title"
+                >
+                  About us
+                </a>
+              </li>
+              <li class="nav-burger-menu-item">
+                <a class="nav-burger-menu-link-passive" href="#footer-title">
                   Contacts
                 </a>
               </li>
@@ -213,7 +225,7 @@
             height="28"
             aria-label="Phone icon"
           >
-            <use href="/exodus/assets/sprite-3b0cdbec.svg#phone"></use>
+            <use href="/exodus/assets/sprite-b8902c8d.svg#phone"></use>
           </svg>
         </a>
       </div>
@@ -259,6 +271,23 @@
   </div>
 </section>
 
+      <button
+  class="scroll-up-button"
+  id="scroll-up-btn"
+  style="display: none"
+  type="button"
+  aria-label="Scroll to top"
+>
+  <svg
+    class="scroll-up-icon"
+    width="16"
+    height="16"
+    aria-label="scroll up icon"
+  >
+    <use href="/exodus/assets/sprite-b8902c8d.svg#arrow-top">XXXXXX</use>
+  </svg>
+</button>
+
     </main>
     <section class="footer-section">
   <div class="container footer-section-wrapper">
@@ -267,7 +296,7 @@
       <div class="footer-content-container">
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-3b0cdbec.svg#marker"></use>
+            <use href="/exodus/assets/sprite-b8902c8d.svg#marker"></use>
           </svg>
           <p class="footer-content-contact">
             33 Academy street, Inverness, IV1 1JN
@@ -275,25 +304,25 @@
         </div>
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-3b0cdbec.svg#envelop"></use>
+            <use href="/exodus/assets/sprite-b8902c8d.svg#envelop"></use>
           </svg>
           <p class="footer-content-contact">exodustattoinverness@gmail.com</p>
         </div>
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-3b0cdbec.svg#cell-phone"></use>
+            <use href="/exodus/assets/sprite-b8902c8d.svg#cell-phone"></use>
           </svg>
           <p class="footer-content-contact">+44-146-371-74-62</p>
         </div>
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-3b0cdbec.svg#clock"></use>
+            <use href="/exodus/assets/sprite-b8902c8d.svg#clock"></use>
           </svg>
           <p class="footer-content-contact">MON - FRI: 09am-6pm</p>
         </div>
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-3b0cdbec.svg#clock"></use>
+            <use href="/exodus/assets/sprite-b8902c8d.svg#clock"></use>
           </svg>
           <p class="footer-content-contact">SUT: 10am-3pm</p>
         </div>
@@ -313,7 +342,7 @@
               height="28"
               aria-label="Phone icon"
             >
-              <use href="/exodus/assets/sprite-3b0cdbec.svg#phone"></use>
+              <use href="/exodus/assets/sprite-b8902c8d.svg#phone"></use>
             </svg>
           </a>
         </li>
@@ -331,7 +360,7 @@
               height="24"
               aria-label="Instagram icon"
             >
-              <use href="/exodus/assets/sprite-3b0cdbec.svg#instagram"></use>
+              <use href="/exodus/assets/sprite-b8902c8d.svg#instagram"></use>
             </svg>
           </a>
         </li>
@@ -349,7 +378,7 @@
               height="24"
               aria-label="Facebook icon"
             >
-              <use href="/exodus/assets/sprite-3b0cdbec.svg#facebook"></use>
+              <use href="/exodus/assets/sprite-b8902c8d.svg#facebook"></use>
             </svg>
           </a>
         </li>
