@@ -96,6 +96,14 @@
 
 .nav-burger-menu-link.active-page {
   color: var(--hover, #c4a069);
+  outline: 1px solid var(--hover, #c4a069);
+  outline-offset: 8px;
+  border-radius: 2rem;
+}
+
+.nav-burger-menu-link-passive {
+  color: var(--white, #ebebeb);
+  transition: color var(--transition);
 }
 
 @media screen and (min-width: 768px) {

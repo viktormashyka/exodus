@@ -110,15 +110,38 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.8px;
-  transition: color var(--transition);
+  transition: color var(--transition), outline-color var(--transition);
 }
 
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--hover, #c4a069);
+  outline: 1px solid var(--white, #ebebeb);
+  outline-offset: 8px;
+  border-radius: 2rem;
 }
 
 .header-nav-link.active-page {
+  color: var(--hover, #c4a069);
+  outline: 1px solid var(--hover, #c4a069);
+  outline-offset: 8px;
+  border-radius: 2rem;
+}
+
+.header-nav-link-passive {
+  color: var(--white, #ebebeb);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  transition: color var(--transition);
+}
+
+.header-nav-link-passive:hover,
+.header-nav-link-passive:focus {
   color: var(--hover, #c4a069);
 }
 
