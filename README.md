@@ -1,116 +1,137 @@
-<!-- TODO: add read.me about project-->
-<!-- TODO: remove src copy-->
+# Exodus Tattoo & Piercing Website
 
-# Vanilla App Template
+Exodus Tattoo & Piercing is a website dedicated to showcasing the work of
+talented tattoo artists in Inverness and providing information about their
+services.
 
-Цей проект було створено за допомогою Vite. Для знайомства та налаштування
-додаткових можливостей [звернись до документації](https://vitejs.dev/).
+## Features
 
-## Створення репозиторію за шаблоном
+- **Header**: Provides navigation links to different sections and pages of the
+  website.
+- **Hero Section**: Introduces the tattoo salon with captivating visuals and a
+  brief description.
+- **About Section**: Provides information about the history and mission of
+  Exodus Tattoo Salon.
+- **What We Do Section**: Highlights the services offered by the salon, such as
+  custom tattoos, cover-ups, and piercings.
+- **Artists Section**: Introduces the talented artists working at Exodus Tattoo
+  Salon, along with their portfolios.
+- **Gallery Section**: Showcases a collection of tattoo artworks created by the
+  salon's artists.
+- **Reviews Section**: Displays testimonials and reviews from satisfied clients.
+- **Footer**: Contains contact information, social media links, and additional
+  navigation.
 
-Використовуй цей репозиторій організації GoIT як шаблон для створення
-репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
-обери опцію `«Create a new repository»`, як показано на зображенні.
+## Technologies Used
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+- **HTML**: Structure of the web pages.
+- **CSS**: Styling and layout of the website.
+- **JavaScript**: Interactivity and functionality.
+- **SVG**: Favicon for the website.
+- **Vite**: Frontend build tool for development.
 
-На наступному етапі відкриється сторінка створення нового репозиторію. Заповни
-поле його імені, переконайся, що репозиторій публічний, після чого натисни
-кнопку `«Create repository from template»`.
+## File Structure
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+- `index.html`: Main entry point of the website.
+- `css/`: Directory containing CSS stylesheets.
+- `partials/`: Directory containing HTML partials for different sections of the
+  website.
+- `main.js`: JavaScript file for adding interactivity and functionality.
+- `images/`: Directory for storing images used on the website.
+- `favicon.webp`: Website favicon.
 
-Після того, як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як показано
-на зображенні.
+## Usage
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+To view the website locally, open the `index.html` file in a web browser.
 
-Проскроливши сторінку до самого кінця, в секції `«Workflow permissions»` обери
-опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це необхідно
-для автоматизації процесу деплою проекту.
+## Credits
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+- This website template was created using Vite, a frontend build tool.
+- The design and content were developed by the Exodus Tattoo Salon team.
 
-Тепер у тебе є особистий репозиторій проекту, зі структурою файлів та папок
-репозиторію-шаблону. Далі працюй з ним, як з будь-яким іншим особистим
-репозиторієм, клонуй його собі на комп'ютер, пиши код, роби коміти та відправляй
-їх на GitHub.
+## Vanilla App Template
 
-## Підготовка до роботи
+This project was created using Vite. To get started and explore additional
+features, [refer to the documentation](https://vitejs.dev/).
 
-1. Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
-   [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проекту в терміналі командою `npm install`.
-3. Запусти режим розробки, виконавши в терміналі команду `npm run dev`.
-4. Перейдіть у браузері за адресою
-   [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
-   перезавантажуватись після збереження змін у файли проекту.
+## Getting Started
 
-## Файли і папки
+1. Make sure you have the LTS version of Node.js installed on your computer.
+   [Download and install](https://nodejs.org/en/) it if necessary.
+2. Install the project's basic dependencies in the terminal with the command
+   `npm install`.
+3. Start the development mode by running the command `npm run dev` in the
+   terminal.
+4. Open your browser and go to [http://localhost:5173](http://localhost:5173).
+   This page will automatically reload after saving changes to project files.
 
-- Файли розмітки компонентів сторінки повинні лежати в папці `src/partials` та
-  імпортуватись до файлу `index.html`. Наприклад, файл з розміткою хедера
-  `header.html` створюємо у папці `partials` та імпортуємо в `index.html`.
-- Файли стилів повинні лежати в папці `src/css` та імпортуватись до HTML-файлів
-  сторінок. Наприклад, для `index.html` файл стилів називається `index.css`.
-- Зображення додавай до папки `src/img`. Збирач оптимізує їх, але тільки при
-  деплої продакшн версії проекту. Все це відбувається у хмарі, щоб не
-  навантажувати твій комп'ютер, тому що на слабких компʼютерах це може зайняти
-  багато часу.
+## Files and Folders
 
-## Деплой
+- Markup files of page components should be placed in the `src/partials` folder
+  and imported into the `index.html` file. For example, create a header markup
+  file named `header.html` in the `partials` folder and import it into
+  `index.html`.
+- Style files should be placed in the `src/css` folder and imported into HTML
+  page files. For example, for `index.html`, the style file is named
+  `index.css`.
+- Add images to the `src/img` folder. The bundler optimizes them, but only
+  during the deployment of the production version of the project. This happens
+  in the cloud to avoid overloading your computer because on weak computers it
+  can take a long time.
 
-Продакшн версія проекту буде автоматично збиратися та деплоїтись на GitHub
-Pages, у гілку `gh-pages`, щоразу, коли оновлюється гілка `main`. Наприклад,
-після прямого пуша або прийнятого пул-реквесту. Для цього необхідно у файлі
-`package.json` змінити значення прапора `--base=/<REPO>/`, для команди `build`,
-замінивши `<REPO>` на назву свого репозиторію, та відправити зміни на GitHub.
+## Deployment
+
+The production version of the project will be automatically built and deployed
+to GitHub Pages in the `gh-pages` branch whenever the `main` branch is updated.
+For example, after a direct push or a merged pull request. To do this, you need
+to change the value of the `--base=/<REPO>/` flag in the `package.json` file for
+the `build` command, replacing `<REPO>` with the name of your repository, and
+push the changes to GitHub.
 
 ```json
 "build": "vite build --base=/<REPO>/",
 ```
 
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) та
-виставити роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
+Next, go to the settings of the GitHub repository (Settings > Pages) and set up
+the distribution of the production version files from the /root folder of the
+gh-pages branch if it wasn't done automatically.
 
 ![GitHub Pages settings](./assets/repo-settings.png)
 
-### Статус деплою
+### Deployment Status
 
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
+The deployment status of the latest commit is indicated by an icon next to its
+identifier.
 
-- **Жовтий колір** - виконується збірка та деплой проекту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час лінтингу, збірки чи деплою сталася помилка.
+- **Yellow Color** - Project build and deployment are in progress.
+- **Green Color** - Deployment completed successfully.
+- **Red Color** - Error occurred during linting, building, or deployment.
 
-Більш детальну інформацію про статус можна переглянути натиснувши на іконку, і в
-вікні, що випадає, перейти за посиланням `Details`.
+More detailed information about the status can be viewed by clicking on the icon
+and navigating to the `Details` link.
 
 ![Deployment status](./assets/deploy-status.png)
 
-### Жива сторінка
+### Live Page
 
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися за
-адресою, вказаною на вкладці `Settings` > `Pages` в налаштуваннях репозиторію.
-Наприклад, ось посилання на живу версію для цього репозиторію
+After some time, typically a few minutes, you will be able to view the live page
+at the address provided on the `Settings` > `Pages` tab in the repository
+settings. For example, here is the link to the live version for this repository:
 
-[https://goitacademy.github.io/vanilla-app-template/](https://goitacademy.github.io/vanilla-app-template/).
+If a blank page opens, make sure there are no errors in the `Console` tab
+related to incorrect paths to CSS and JS files in the project (**404**). Most
+likely, you have an incorrect value for the `--base` flag in the `build` command
+in the `package.json` file.
 
-Якщо відкриється порожня сторінка, переконайся, що у вкладці `Console` немає
-помилок пов'язаних з неправильними шляхами до CSS та JS файлів проекту
-(**404**). Швидше за все у тебе неправильне значення прапора `--base` для
-команди `build` у файлі `package.json`.
-
-## Як це працює
+## How It Works
 
 ![How it works](./assets/how-it-works.png)
 
-1. Після кожного пуша у гілку `main` GitHub-репозиторію, запускається
-   спеціальний скрипт (GitHub Action) із файлу `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проект ініціалізується та
-   проходить лінтинг та збірку перед деплоєм.
-3. Якщо всі кроки пройшли успішно, зібрана продакшн версія файлів проекту
-   відправляється у гілку `gh-pages`. В іншому випадку, у лозі виконання скрипта
-   буде вказано в чому проблема.
+1. After each push to the `main` branch of the GitHub repository, a special
+   script (GitHub Action) from the `.github/workflows/deploy.yml` file is
+   triggered.
+2. All files from the repository are copied to the server, where the project is
+   initialized and goes through linting and building before deployment.
+3. If all steps are successful, the production version of the project files is
+   sent to the `gh-pages` branch. Otherwise, the execution log of the script
+   will indicate the problem.

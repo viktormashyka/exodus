@@ -85,6 +85,9 @@
 .footer-svg {
   fill: var(--accent, #9f6f3d);
   fill: var(--accent, #9f6f3d);
+
+  width: '28';
+  height: '28';
   transition: fill var(--transition);
 }
 
@@ -116,6 +119,7 @@
     /* TODO: work with this */
     top: 790px;
     right: -30px;
+    z-index: 999;
   }
 }
 
@@ -132,8 +136,8 @@
   .header-social-media-list::after {
     content: '';
     position: absolute;
-    bottom: 174px;
-    right: 13px;
+    bottom: 204px;
+    right: 19px;
     width: 1px;
     height: 240px;
     background-color: var(--accent, #9f6f3d);
@@ -142,8 +146,8 @@
   .header-social-media-list::before {
     content: '';
     position: absolute;
-    top: 174px;
-    right: 13px;
+    top: 204px;
+    right: 19px;
     width: 1px;
     height: 240px;
     background-color: var(--accent, #9f6f3d);
