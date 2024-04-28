@@ -7,10 +7,17 @@
     <title>Gallery</title>
     <!-- styles -->
     
-    <script type="module" crossorigin src="/exodus/assets/vendor-5b5a0b62.js"></script>
-    <script type="module" crossorigin src="/exodus/assets/burger-menu-6fc2975d.js"></script>
-    <link rel="stylesheet" href="/exodus/assets/vendor-e5212ee8.css">
-    <link rel="stylesheet" href="/exodus/assets/styles-0d03d4c6.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.css"
+      integrity="sha512-FaAQujRxLMvw+BkmGN3w7u9EdQQr1t0vQoY8KDh09+6SFaWSTe+KrT8oCWg25X91hytm5c5BTmiSGQejkraaZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/exodus/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/exodus/assets/vendor-9ceb8365.js">
+    <link rel="modulepreload" crossorigin href="/exodus/assets/burger-menu-c4ebc8df.js">
+    <link rel="stylesheet" href="/exodus/assets/styles-fb94a88e.css">
   </head>
 
   <body class="gallery-body">
@@ -77,11 +84,11 @@
             >
               <svg
                 class="header-social-media-icon"
-                width="28"
-                height="28"
+                width="40"
+                height="40"
                 aria-label="Phone icon"
               >
-                <use href="/exodus/assets/sprite-b8902c8d.svg#phone"></use>
+                <use href="/exodus/assets/sprite-2f90ae3b.svg#phone"></use>
               </svg>
             </a>
           </li>
@@ -95,11 +102,11 @@
             >
               <svg
                 class="header-social-media-icon"
-                width="28"
-                height="28"
+                width="40"
+                height="40"
                 aria-label="Instagram icon"
               >
-                <use href="/exodus/assets/sprite-b8902c8d.svg#instagram"></use>
+                <use href="/exodus/assets/sprite-2f90ae3b.svg#instagram"></use>
               </svg>
             </a>
           </li>
@@ -113,11 +120,11 @@
             >
               <svg
                 class="header-social-media-icon"
-                width="28"
-                height="28"
+                width="40"
+                height="40"
                 aria-label="Facebook icon"
               >
-                <use href="/exodus/assets/sprite-b8902c8d.svg#facebook"></use>
+                <use href="/exodus/assets/sprite-2f90ae3b.svg#facebook"></use>
               </svg>
             </a>
           </li>
@@ -135,7 +142,7 @@
           height="32"
           aria-label="burger menu btn icon"
         >
-          <use href="/exodus/assets/sprite-b8902c8d.svg#burger-menu"></use>
+          <use href="/exodus/assets/sprite-2f90ae3b.svg#burger-menu"></use>
         </svg>
       </button>
       <div class="menu-container js-menu-container" id="mobile-menu">
@@ -151,7 +158,7 @@
               height="32"
               aria-label="Close Mobile Menu icon"
             >
-              <use href="/exodus/assets/sprite-b8902c8d.svg#icon-close"></use>
+              <use href="/exodus/assets/sprite-2f90ae3b.svg#icon-close"></use>
             </svg>
           </button>
           <nav class="nav-burger-menu">
@@ -221,11 +228,11 @@
         >
           <svg
             class="burger-social-media-icon"
-            width="28"
-            height="28"
+            width="40"
+            height="40"
             aria-label="Phone icon"
           >
-            <use href="/exodus/assets/sprite-b8902c8d.svg#phone"></use>
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#phone"></use>
           </svg>
         </a>
       </div>
@@ -237,36 +244,7 @@
       <section class="gallery-section">
   <div class="container gallery-section-wrapper">
     <h1 class="gallery-title" id="gallery-title">Gallery</h1>
-    <div class="gallery-content-container">
-      <ul class="gallery-list">
-        <li class="gallery-item">
-          <div class="gallery-img-container">
-            <picture>
-              <source
-                media="(max-width: 767px)"
-                srcset="/exodus/assets/gallery-mobile-6b9efbb8.webp 1x, /exodus/assets/gallery-mobile@2x-38f83899.webp 2x"
-              />
-              <source
-                media="(min-width: 768px) and (max-width: 1439px)"
-                srcset="/exodus/assets/gallery-tablet-9b06dc00.webp 1x, /exodus/assets/gallery-tablet@2x-d4ca056d.webp 2x"
-              />
-              <source
-                media="(min-width: 1280px)"
-                srcset="/exodus/assets/gallery-tablet-9b06dc00.webp 1x, /exodus/assets/gallery-tablet@2x-d4ca056d.webp 2x"
-              />
-              <img
-                class="gallery-img"
-                src="./images/gallery-bg.png"
-                alt="Tattoo's photos"
-              />
-            </picture>
-          </div>
-        </li>
-      </ul>
-      <a href="./gallery-page.html" class="gallery-link"
-        ><p class="gallery-link-text">View more works</p></a
-      >
-    </div>
+    <ul class="gallery"></ul>
   </div>
 </section>
 
@@ -283,7 +261,7 @@
     height="16"
     aria-label="scroll up icon"
   >
-    <use href="/exodus/assets/sprite-b8902c8d.svg#arrow-top">XXXXXX</use>
+    <use href="/exodus/assets/sprite-2f90ae3b.svg#arrow-top"></use>
   </svg>
 </button>
 
@@ -295,7 +273,7 @@
       <div class="footer-content-container">
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-b8902c8d.svg#marker"></use>
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#marker"></use>
           </svg>
           <p class="footer-content-contact">
             33 Academy street, Inverness, IV1 1JN
@@ -303,27 +281,27 @@
         </div>
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-b8902c8d.svg#envelop"></use>
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#envelop"></use>
           </svg>
           <p class="footer-content-contact">exodustattoinverness@gmail.com</p>
         </div>
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-b8902c8d.svg#cell-phone"></use>
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#cell-phone"></use>
           </svg>
           <p class="footer-content-contact">+44-146-371-74-62</p>
         </div>
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-b8902c8d.svg#clock"></use>
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#clock"></use>
           </svg>
-          <p class="footer-content-contact">MON - FRI: 09am-6pm</p>
+          <p class="footer-content-contact">MON - FRI: 10am-6pm</p>
         </div>
         <div class="footer-content-contact-wrapper">
           <svg class="footer-svg" width="24" height="24">
-            <use href="/exodus/assets/sprite-b8902c8d.svg#clock"></use>
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#clock"></use>
           </svg>
-          <p class="footer-content-contact">SUT: 10am-3pm</p>
+          <p class="footer-content-contact">SUT: 10am-6pm</p>
         </div>
       </div>
       <ul class="footer-social-networks" aria-label="Social Networks">
@@ -337,11 +315,11 @@
           >
             <svg
               class="footer-svg"
-              width="28"
-              height="28"
+              width="40"
+              height="40"
               aria-label="Phone icon"
             >
-              <use href="/exodus/assets/sprite-b8902c8d.svg#phone"></use>
+              <use href="/exodus/assets/sprite-2f90ae3b.svg#phone"></use>
             </svg>
           </a>
         </li>
@@ -355,11 +333,11 @@
           >
             <svg
               class="footer-svg"
-              width="24"
-              height="24"
+              width="40"
+              height="40"
               aria-label="Instagram icon"
             >
-              <use href="/exodus/assets/sprite-b8902c8d.svg#instagram"></use>
+              <use href="/exodus/assets/sprite-2f90ae3b.svg#instagram"></use>
             </svg>
           </a>
         </li>
@@ -373,11 +351,11 @@
           >
             <svg
               class="footer-svg"
-              width="24"
-              height="24"
+              width="40"
+              height="40"
               aria-label="Facebook icon"
             >
-              <use href="/exodus/assets/sprite-b8902c8d.svg#facebook"></use>
+              <use href="/exodus/assets/sprite-2f90ae3b.svg#facebook"></use>
             </svg>
           </a>
         </li>
@@ -389,6 +367,12 @@
   </div>
 </section>
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js"
+      integrity="sha512-/4kQE5RJQYHRhUiK+CZS8UhaJTnLmQkDuf8lOhiP2xLdjthA/rm0VqqWjcyelIx+NDyNHFmtqvuIgOFQnI34WA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     
   </body>
 </html>
