@@ -23,9 +23,6 @@
   margin-bottom: 64px;
 }
 
-.what-we-do-content-container {
-}
-
 .what-we-do-list {
   display: flex;
   flex-direction: column;
@@ -37,9 +34,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.what-we-do-item-icon {
 }
 
 .what-we-do-item-title {

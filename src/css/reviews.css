@@ -24,9 +24,6 @@
   margin-bottom: 64px;
 }
 
-.reviews-content-container {
-}
-
 .reviews-list {
   display: flex;
   flex-direction: column;
