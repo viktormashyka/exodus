@@ -101,7 +101,6 @@
     position: absolute;
     display: flex;
     align-items: center;
-    /* TODO: work with this */
     top: 790px;
     right: -30px;
     z-index: 999;
