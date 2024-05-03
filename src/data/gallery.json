@@ -1,5 +1,7 @@
 [
-  { "original": "../images/gallery/tattoo-1.webp" },
+  {
+    "original": "/Users/viktormashyka/Documents/GitHub/exodus/src/images/gallery/tattoo-1.webp"
+  },
   { "original": "../images/gallery/tattoo-2.webp" },
   { "original": "../images/gallery/tattoo-3.webp" },
   { "original": "../images/gallery/tattoo-4.webp" },
