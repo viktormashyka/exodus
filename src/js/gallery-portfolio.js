@@ -7,13 +7,13 @@ const description = 'Tattoo made by Exodus';
 const placeholder = '../images/tattoo-placeholder.png';
 
 const markup = gallery
-  .map(el => {
-    return `<img
+  .map(
+    el => `<img
         class="about-img"
         src="./images/about-desktop.webp"
         alt="Artist makes tattoo"
-      />`;
-  })
+      />`
+  )
   .join('');
 
 galleryList.insertAdjacentHTML('beforeend', markup);
