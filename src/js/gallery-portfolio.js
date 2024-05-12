@@ -11,11 +11,11 @@ const markup = gallery
     el =>
       `<li class="gallery__item"><a class="gallery__link" href=${
         el.original
-      }><img class="gallery__image" src=${
+      }><picture><img class="gallery__image" src=${
         el.original ?? placeholder
       } data-src="${
         el.original ?? placeholder
-      }" alt=${description} title=${description}  loading="lazy"/></a></li>`
+      }" alt=${description} title=${description}  loading="lazy"/></picture></a></li>`
   )
   .join('');
 
