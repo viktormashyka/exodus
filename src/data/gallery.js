@@ -1,5 +1,5 @@
 export const gallery = [
-  { original: '../images/gallery/tattoo-1.webp' },
+  { original: '/images/gallery/tattoo-1.webp' },
   { original: '../images/gallery/tattoo-2.webp' },
   { original: '../images/gallery/tattoo-3.webp' },
   { original: '../images/gallery/tattoo-4.webp' },
