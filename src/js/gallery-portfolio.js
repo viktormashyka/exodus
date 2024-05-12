@@ -1,11 +1,12 @@
 import galleryItems from '../data/gallery.json';
+import { gallery } from '../data/gallery';
 
 const galleryList = document.querySelector('.gallery');
 
 const description = 'Tattoo made by Exodus';
 const placeholder = '../images/tattoo-placeholder.png';
 
-const markup = galleryItems
+const markup = gallery
   .map(el => {
     return `<li class="gallery__item">
   <a class="gallery__link" href=${el.original}>
