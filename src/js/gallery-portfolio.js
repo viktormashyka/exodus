@@ -1,5 +1,4 @@
 import galleryItems from '../data/gallery.json';
-// import { gallery } from '../data/gallery';
 
 const galleryList = document.querySelector('.gallery');
 
@@ -20,7 +19,6 @@ const markup = galleryItems
   .join('');
 
 galleryList.insertAdjacentHTML('beforeend', markup);
-// galleryList.innerHTML = markup;
 
 var lightbox = new SimpleLightbox('.gallery a', {
   /* options */
