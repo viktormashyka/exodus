@@ -1,12 +1,12 @@
-// import galleryItems from '../data/gallery.json';
-import { gallery } from '../data/gallery';
+import galleryItems from '../data/gallery.json';
+// import { gallery } from '../data/gallery';
 
 const galleryList = document.querySelector('.gallery');
 
 const description = 'Tattoo made by Exodus';
-const placeholder = '../images/tattoo-placeholder.png';
+const placeholder = './images/tattoo-placeholder.png';
 
-const markup = gallery
+const markup = galleryItems
   .map(
     el =>
       `<li class="gallery__item"><a class="gallery__link" href=${
@@ -19,8 +19,8 @@ const markup = gallery
   )
   .join('');
 
-// galleryList.insertAdjacentHTML('beforeend', markup);
-galleryList.innerHTML = markup;
+galleryList.insertAdjacentHTML('beforeend', markup);
+// galleryList.innerHTML = markup;
 
 var lightbox = new SimpleLightbox('.gallery a', {
   /* options */

@@ -96,8 +96,6 @@ Next, go to the settings of the GitHub repository (Settings > Pages) and set up
 the distribution of the production version files from the /root folder of the
 gh-pages branch if it wasn't done automatically.
 
-![GitHub Pages settings](./assets/repo-settings.png)
-
 ### Deployment Status
 
 The deployment status of the latest commit is indicated by an icon next to its
@@ -109,8 +107,6 @@ identifier.
 
 More detailed information about the status can be viewed by clicking on the icon
 and navigating to the `Details` link.
-
-![Deployment status](./assets/deploy-status.png)
 
 ### Live Page
 
@@ -124,8 +120,6 @@ likely, you have an incorrect value for the `--base` flag in the `build` command
 in the `package.json` file.
 
 ## How It Works
-
-![How it works](./assets/how-it-works.png)
 
 1. After each push to the `main` branch of the GitHub repository, a special
    script (GitHub Action) from the `.github/workflows/deploy.yml` file is

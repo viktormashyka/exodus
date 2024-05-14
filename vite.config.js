@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import json5Plugin from 'vite-plugin-json5';
 import glob from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
@@ -25,7 +26,7 @@ export default defineConfig(({ command }) => {
       },
       outDir: '../dist',
     },
-    plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
+    plugins: [injectHTML(), json5Plugin(), FullReload(['./src/**/**.html'])],
     assetsInclude: ['**/*.woff', '**/*.woff2', '**/*.ttf', '**/*.otf'],
   };
 });
