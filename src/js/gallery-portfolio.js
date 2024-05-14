@@ -5,7 +5,7 @@ const galleryList = document.querySelector('.gallery');
 const description = 'Tattoo made by Exodus';
 const placeholder = './images/tattoo-placeholder.png';
 
-const markup = galleryItems
+const markup = galleryItems.data
   .map(
     el =>
       `<li class="gallery__item"><a class="gallery__link" href=${
