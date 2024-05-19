@@ -16,7 +16,7 @@ const markup = galleryItems.data
         el.original ?? placeholder
       }" alt=${description} title=${description}  loading="lazy"/></picture></a></li>`
   )
-  .join('');
+  .join(''); //FIXME: src doesn't show properly on live page
 
 galleryList.insertAdjacentHTML('beforeend', markup);
 
