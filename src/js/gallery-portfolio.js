@@ -5,7 +5,7 @@ const galleryList = document.querySelector('.gallery');
 const description = 'Tattoo made by Exodus';
 const placeholder = './images/tattoo-placeholder.png';
 const pathTo = '../../src/';
-const img = 'images/gallery/tattoo-1.webp';
+const img = './images/gallery/tattoo-1.webp';
 
 const markup = galleryItems.data
   .map(
