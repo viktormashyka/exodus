@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/exodus/favicon.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <!-- styles -->
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.css"
+      integrity="sha512-FaAQujRxLMvw+BkmGN3w7u9EdQQr1t0vQoY8KDh09+6SFaWSTe+KrT8oCWg25X91hytm5c5BTmiSGQejkraaZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/exodus/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/exodus/assets/vendor-9ceb8365.js">
+    <link rel="modulepreload" crossorigin href="/exodus/assets/burger-menu-548887bb.js">
+    <link rel="stylesheet" href="/exodus/assets/styles-12b4c208.css">
+  </head>
+
+  <body class="gallery-body">
+    <header class="page-header">
+  <div class="container">
+    <div class="header-container">
+      <div class="logo-link-wrapper">
+        <a
+          class="logo-link"
+          href="./index.html"
+          aria-label="Logo Exodus tattoo & piercing"
+        >
+          <div class="logo-container">
+            <div class="logo-img-wrapper">
+              <img
+                class="logo-img"
+                src="/exodus/assets/logo-round-456669d6.png"
+                alt="Logo Exodus tattoo & piercing"
+              />
+            </div>
+            <p class="logo-content">
+              <span class="logo-content-title">Exodus</span>
+              <br />
+              tattoo & piercing
+            </p>
+          </div>
+        </a>
+      </div>
+      <nav class="header-nav" role="navigation">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="index.html"> Home </a>
+          </li>
+          <!-- <li class="header-nav-item">
+            <a class="header-nav-link" href="artists-page.html"> Artists </a>
+          </li> -->
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="gallery-page.html"> Gallery </a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link-passive" href="index.html#about-title">
+              About us
+            </a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link-passive" href="#footer-title">
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="header-social-media-container"
+        aria-label="Theme Switch and Social Media"
+      >
+        <ul class="header-social-media-list" aria-label="Social Media Links">
+          <li class="header-social-media-item">
+            <a
+              class="header-social-media-link"
+              href="tel:+441463717462"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Phone"
+            >
+              <svg
+                class="header-social-media-icon"
+                width="40"
+                height="40"
+                aria-label="Phone icon"
+              >
+                <use href="/exodus/assets/sprite-2f90ae3b.svg#phone"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social-media-item">
+            <a
+              class="header-social-media-link"
+              href="https://www.instagram.com/explore/locations/118766127826992/exodus-tattoo-and-piercings/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <svg
+                class="header-social-media-icon"
+                width="40"
+                height="40"
+                aria-label="Instagram icon"
+              >
+                <use href="/exodus/assets/sprite-2f90ae3b.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social-media-item">
+            <a
+              class="header-social-media-link"
+              href="https://www.facebook.com/profile.php?id=100090231159540"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <svg
+                class="header-social-media-icon"
+                width="40"
+                height="40"
+                aria-label="Facebook icon"
+              >
+                <use href="/exodus/assets/sprite-2f90ae3b.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mobile header     -->
+
+    <div class="mobile-header-container">
+      <button class="burger-menu-btn js-open-menu" aria-label="burger menu btn">
+        <svg
+          class="burger-menu-icon"
+          width="32"
+          height="32"
+          aria-label="burger menu btn icon"
+        >
+          <use href="/exodus/assets/sprite-2f90ae3b.svg#burger-menu"></use>
+        </svg>
+      </button>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <div class="modal">
+          <button
+            class="close-btn js-close-menu"
+            type="button"
+            aria-label="Close Mobile Menu"
+          >
+            <svg
+              class="close-modal-btn-icon"
+              width="32"
+              height="32"
+              aria-label="Close Mobile Menu icon"
+            >
+              <use href="/exodus/assets/sprite-2f90ae3b.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="nav-burger-menu">
+            <ul class="nav-burger-menu-list">
+              <li class="nav-burger-menu-item">
+                <a class="nav-burger-menu-link" href="index.html"> Home </a>
+              </li>
+              <!-- <li class="nav-burger-menu-item">
+                <a class="nav-burger-menu-link" href="artists-page.html">
+                  Artists
+                </a>
+              </li> -->
+              <li class="nav-burger-menu-item">
+                <a class="nav-burger-menu-link" href="gallery-page.html">
+                  Gallery
+                </a>
+              </li>
+              <li class="nav-burger-menu-item">
+                <a
+                  class="nav-burger-menu-link-passive"
+                  href="index.html#about-title"
+                >
+                  About us
+                </a>
+              </li>
+              <li class="nav-burger-menu-item">
+                <a class="nav-burger-menu-link-passive" href="#footer-title">
+                  Contacts
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="burger-logo-link-wrapper">
+        <a
+          class="logo-link"
+          href="./index.html"
+          aria-label="Logo Exodus tattoo & piercing"
+        >
+          <div class="logo-container">
+            <div class="logo-img-wrapper">
+              <img
+                class="logo-img"
+                src="/exodus/assets/logo-round-456669d6.png"
+                alt="Logo Exodus tattoo & piercing"
+              />
+            </div>
+            <p class="logo-content">
+              <span class="logo-content-title">Exodus</span>
+              <br />
+              tattoo & piercing
+            </p>
+          </div>
+        </a>
+      </div>
+      <div
+        class="burger-social-media-container"
+        aria-label="Social Media Links"
+      >
+        <a
+          class="burger-social-media-link"
+          href="tel:+441463717462"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Phone"
+        >
+          <svg
+            class="burger-social-media-icon"
+            width="40"
+            height="40"
+            aria-label="Phone icon"
+          >
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#phone"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="gallery-section">
+  <div class="container gallery-section-wrapper">
+    <h1 class="gallery-title" id="gallery-title">Gallery</h1>
+    <ul class="gallery"></ul>
+  </div>
+</section>
+
+      <button
+  class="scroll-up-button"
+  id="scroll-up-btn"
+  style="display: none"
+  type="button"
+  aria-label="Scroll to top"
+>
+  <svg
+    class="scroll-up-icon"
+    width="16"
+    height="16"
+    aria-label="scroll up icon"
+  >
+    <use href="/exodus/assets/sprite-2f90ae3b.svg#arrow-top"></use>
+  </svg>
+</button>
+
+    </main>
+    <section class="footer-section">
+  <div class="container footer-section-wrapper">
+    <h1 class="footer-title" id="footer-title"></h1>
+    <div class="footer-content-and-social-wrapper">
+      <div class="footer-content-container">
+        <div class="footer-content-contact-wrapper">
+          <svg class="footer-svg" width="24" height="24">
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#marker"></use>
+          </svg>
+          <p class="footer-content-contact">
+            33 Academy street, Inverness, IV1 1JN
+          </p>
+        </div>
+        <div class="footer-content-contact-wrapper">
+          <svg class="footer-svg" width="24" height="24">
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#envelop"></use>
+          </svg>
+          <p class="footer-content-contact">exodustattoinverness@gmail.com</p>
+        </div>
+        <div class="footer-content-contact-wrapper">
+          <svg class="footer-svg" width="24" height="24">
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#cell-phone"></use>
+          </svg>
+          <p class="footer-content-contact">+44-146-371-74-62</p>
+        </div>
+        <div class="footer-content-contact-wrapper">
+          <svg class="footer-svg" width="24" height="24">
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#clock"></use>
+          </svg>
+          <p class="footer-content-contact">MON - FRI: 10am-6pm</p>
+        </div>
+        <div class="footer-content-contact-wrapper">
+          <svg class="footer-svg" width="24" height="24">
+            <use href="/exodus/assets/sprite-2f90ae3b.svg#clock"></use>
+          </svg>
+          <p class="footer-content-contact">SUT: 10am-6pm</p>
+        </div>
+      </div>
+      <ul class="footer-social-networks" aria-label="Social Networks">
+        <li class="footer-social-item">
+          <a
+            class="footer-link-network"
+            href="tel:+441463717462"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Phone"
+          >
+            <svg
+              class="footer-svg"
+              width="40"
+              height="40"
+              aria-label="Phone icon"
+            >
+              <use href="/exodus/assets/sprite-2f90ae3b.svg#phone"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="footer-link-network"
+            href="https://www.instagram.com/explore/locations/118766127826992/exodus-tattoo-and-piercings/"
+            target="_blank"
+            aria-label="Instagram"
+            rel="noopener noreferrer"
+          >
+            <svg
+              class="footer-svg"
+              width="40"
+              height="40"
+              aria-label="Instagram icon"
+            >
+              <use href="/exodus/assets/sprite-2f90ae3b.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="footer-link-network"
+            href="https://www.facebook.com/profile.php?id=100090231159540"
+            target="_blank"
+            aria-label="Facebook"
+            rel="noopener noreferrer"
+          >
+            <svg
+              class="footer-svg"
+              width="40"
+              height="40"
+              aria-label="Facebook icon"
+            >
+              <use href="/exodus/assets/sprite-2f90ae3b.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="footer-content-copyright">
+      2024 © Exodus tattoo & piercing, All rights reserved.
+    </p>
+  </div>
+</section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js"
+      integrity="sha512-/4kQE5RJQYHRhUiK+CZS8UhaJTnLmQkDuf8lOhiP2xLdjthA/rm0VqqWjcyelIx+NDyNHFmtqvuIgOFQnI34WA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    
+  </body>
+</html>
