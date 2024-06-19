@@ -1,9 +1,9 @@
-import galleryItems from '../data/_gallery.json';
+import galleryItems from '../data/gallery.json';
 
 const galleryList = document.querySelector('.gallery');
 
 const description = 'Tattoo made by Exodus';
-const placeholder = './images/tattoo-placeholder.png';
+const placeholder = 'https://placehold.co/240x320';
 
 const markup = galleryItems.data
   .map(
@@ -18,7 +18,6 @@ const markup = galleryItems.data
   )
   .join('');
 
-//FIXME: src doesn't show properly on live page
 galleryList.insertAdjacentHTML('beforeend', markup);
 
 var lightbox = new SimpleLightbox('.gallery a', {

@@ -4,24 +4,6 @@ Exodus Tattoo & Piercing is a website dedicated to showcasing the work of
 talented tattoo artists in Inverness and providing information about their
 services.
 
-## Features
-
-- **Header**: Provides navigation links to different sections and pages of the
-  website.
-- **Hero Section**: Introduces the tattoo salon with captivating visuals and a
-  brief description.
-- **About Section**: Provides information about the history and mission of
-  Exodus Tattoo Salon.
-- **What We Do Section**: Highlights the services offered by the salon, such as
-  custom tattoos, cover-ups, and piercings.
-- **Artists Section**: Introduces the talented artists working at Exodus Tattoo
-  Salon, along with their portfolios.
-- **Gallery Section**: Showcases a collection of tattoo artworks created by the
-  salon's artists.
-- **Reviews Section**: Displays testimonials and reviews from satisfied clients.
-- **Footer**: Contains contact information, social media links, and additional
-  navigation.
-
 ## Technologies Used
 
 - **HTML**: Structure of the web pages.

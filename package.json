@@ -1,11 +1,11 @@
 {
-  "name": "exodus",
+  "name": "exodus-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/exodus/",
+    "build": "vite build --base=/exodus-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
