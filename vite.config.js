@@ -28,6 +28,6 @@ export default defineConfig(({ command }) => {
     },
     plugins: [injectHTML(), json5Plugin(), FullReload(['./src/**/**.html'])],
     assetsInclude: ['**/*.woff', '**/*.woff2', '**/*.ttf', '**/*.otf'],
-    base: '/',
+    base: '/exodus/',
   };
 });
