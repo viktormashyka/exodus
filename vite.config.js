@@ -4,7 +4,7 @@ import glob from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 
-export default defineConfig(({ command }) => {
+export default defineConfig(({ command, mode }) => {
   return {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
@@ -21,13 +21,14 @@ export default defineConfig(({ command }) => {
               return 'vendor';
             }
           },
-          entryFileNames: 'commonHelpers.js',
+          // entryFileNames: 'commonHelpers.js',
+          entryFileNames: '[name]-[hash].js',
         },
       },
       outDir: '../dist',
     },
     plugins: [injectHTML(), json5Plugin(), FullReload(['./src/**/**.html'])],
     assetsInclude: ['**/*.woff', '**/*.woff2', '**/*.ttf', '**/*.otf'],
-    base: '/exodus/',
+    base: mode === 'production' ? '/exodus/' : '/',
   };
 });
