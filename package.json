@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/exodus/",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "glob": "^8.1.0",
+    "glob": "^11.0.0",
     "vite": "^4.0.5",
     "vite-plugin-json5": "^1.1.2"
   },
