@@ -65,13 +65,10 @@ features, [refer to the documentation](https://vitejs.dev/).
 
 The production version of the project will be automatically built and deployed
 to GitHub Pages in the `gh-pages` branch whenever the `main` branch is updated.
-For example, after a direct push or a merged pull request. To do this, you need
-to change the value of the `--base=/<REPO>/` flag in the `package.json` file for
-the `build` command, replacing `<REPO>` with the name of your repository, and
-push the changes to GitHub.
+For example, after a direct push or a merged pull request.
 
 ```json
-"build": "vite build --base=/<REPO>/",
+"build": "vite build",
 ```
 
 Next, go to the settings of the GitHub repository (Settings > Pages) and set up
